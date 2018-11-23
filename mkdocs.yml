@@ -13,7 +13,8 @@ markdown_extensions:
   - toc:
       permalink: true
   - admonition
-  - codehilite
+  - codehilite:
+      linenums: true
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -24,7 +25,8 @@ markdown_extensions:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.magiclink
-  - pymdownx.mark
+  - pymdownx.mark:
+      smart_mark: true
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - pymdownx.tasklist:
@@ -42,3 +44,4 @@ nav:
   - About: about.md
   - Projects:
     - Self-Hosting: 'projects/self-hosting.md'
+    - Private OpenFaas: 'projects/host-open-faas.md'
