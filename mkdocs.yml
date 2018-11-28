@@ -1,4 +1,5 @@
 site_name: Apogee-Dev
+repo_name: ajaxe/JournalDocs
 repo_url: https://github.com/ajaxe/JournalDocs
 google_analytics: ['UA-36723568-3', 'mkdocs.org']
 
@@ -8,6 +9,9 @@ theme:
   logo:
     icon: 'fingerprint'
   include_sidebar: true
+  language: en
+  feature:
+    tabs: true
 
 markdown_extensions:
   - toc:
@@ -38,6 +42,13 @@ extra_javascript:
 
 extra_css:
   - css/extra_css.css
+
+extra:
+  social:
+    - type: github-alt
+      link: https://github.com/ajaxe
+    - type: linkedin
+      link: https://linkedin.com/in/asharma2015
 
 nav:
   - Home: index.md
