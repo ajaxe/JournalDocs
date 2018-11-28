@@ -1,7 +1,7 @@
 # About Me
 
 > I am a dotnet developer, an avid gamer (jeez what a surprise) and love to explore new technologies. I am a new father and when I have juggled my priorities :stuck_out_tongue:, I experiment with new software stacks.    
-> As technologies change daily, I believe on-the-job experience should be augmented with off hour developmental explorations. I am hoping by working on this site I would be taking a small step in this direction.
+> As technologies change daily, I believe on-the-job experience should be augmented with off hour developmental explorations. I am hoping by working on this site I would be taking a step in this direction.
 
 ## Current Interests
 
