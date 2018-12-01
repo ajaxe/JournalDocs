@@ -8,7 +8,7 @@ theme:
   favicon: 'img/favicon.ico'
   custom_dir: docs/theme/
   logo:
-    icon: 'my-logo'
+    icon: 'fingerprint'
   include_sidebar: true
   language: en
   feature:
