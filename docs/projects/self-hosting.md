@@ -8,7 +8,7 @@ I have this old T420 thinkpad (quad-core I7) which I decided to use to setup my 
 
 I already had a domain purchased with AWS _[apogee-dev.com](apogee-dev.com)_, so decided to use AWS _Route53_ as my DNS provider. So I came up with the following home network setup keeping in mind the security of the rest of home network devices.
 
-![self hosted network](../images/self-host-network.jpg)
+![self hosted network](../img/self-host-network.jpg)
 
 * `DMZ Router (Linksys)` creates a private network which forwards HTTP, HTTPS traffic to the `DMZ Host Laptop`
 * `DMZ Host Laptop` is configured to run docker. It is running _Traefik_ as the gateway & reverse proxy to several other services.

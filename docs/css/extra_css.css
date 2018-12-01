@@ -6,3 +6,15 @@
     font-style: italic;
     font-size: 0.8em;
 }
+.md-logo {
+    width: 36px;
+}
+.md-logo i {
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    -webkit-mask: url('../img/logo.svg') no-repeat;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    mask: url('../img/logo.svg') no-repeat;
+}
