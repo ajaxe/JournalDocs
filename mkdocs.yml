@@ -8,7 +8,7 @@ theme:
   favicon: 'img/favicon.ico'
   custom_dir: docs/theme/
   logo:
-    icon: 'fingerprint'
+    icon: 'my-logo'
   include_sidebar: true
   language: en
   feature:
@@ -40,6 +40,8 @@ markdown_extensions:
 
 extra_javascript:
   - js/extra.js
+  - js/moment.min.js
+  - js/moment-timezone-with-data.min.js
 
 extra_css:
   - css/extra_css.css
@@ -57,3 +59,4 @@ nav:
   - Projects:
     - Self-Hosting: 'projects/self-hosting.md'
     - Private OpenFaas: 'projects/host-open-faas.md'
+  - Privacy: privacy.md

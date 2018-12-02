@@ -1,0 +1,1 @@
+<iframe style="height:95vh; width: 100%; border: 0;" src="https://app.termly.io/document/privacy-policy/67978f30-c612-44d3-9410-98ce3cd52bc2"></iframe>

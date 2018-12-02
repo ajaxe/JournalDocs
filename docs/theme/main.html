@@ -2,7 +2,14 @@
 
 {% block content %}
     <div class="last-modified">
-      Compiled at: <script type="text/javascript">document.write(document.lastModified)</script> EST.
+      Compiled at: <span id="compile-dt"></span>
     </div>
     {{ super() }}
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <script>
+      custom.convertDateFromUtc('{{build_date_utc}}');
+    </script>
 {% endblock %}
