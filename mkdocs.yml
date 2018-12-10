@@ -57,6 +57,9 @@ nav:
   - Home: index.md
   - About: about.md
   - Projects:
+    - "Self-Hosting": 'projects/self-hosting.md'
+    - "Private OpenFaas": 'projects/host-open-faas.md'
+    - "Host Web App Behind Traefik": "projects/web-app-behind-traefik.md"
     - Self-Hosting: 'projects/self-hosting.md'
     - Private OpenFaas: 'projects/host-open-faas.md'
   - Privacy: privacy.md
