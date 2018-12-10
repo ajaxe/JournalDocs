@@ -60,6 +60,5 @@ nav:
     - "Self-Hosting": 'projects/self-hosting.md'
     - "Private OpenFaas": 'projects/host-open-faas.md'
     - "Host Web App Behind Traefik": "projects/web-app-behind-traefik.md"
-    - Self-Hosting: 'projects/self-hosting.md'
-    - Private OpenFaas: 'projects/host-open-faas.md'
+    - "Aspnet Core With Vuejs": "projects/vue-app-with-dotnet.md"
   - Privacy: privacy.md
