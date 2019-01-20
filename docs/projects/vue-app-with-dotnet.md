@@ -1,4 +1,4 @@
-# Aspnet Core With Vuejs
+# Aspnet Core With Vue.js
 
 I wanted to learn about vue js and use it along with aspnet core application. I am sure there may be solution templates _out there_ for this, but, I still gave it a shot.
 
@@ -66,7 +66,7 @@ To facilitate building of vue javascript files along with launching of aspnet co
 
 In above configuration, task `build` is dependent on tasks `build-vue-app` and `build-dotnet`.
 
-## Vue JS Build
+## Vue.js Build
 
 I am using [Parceljs](https://parceljs.org/) to build and transpile the javascript code. The task `build-vue-app` (in previous section), outputs built javscript files in `/wwwroot` folder which is the default WebRoot for aspnet core application.
 

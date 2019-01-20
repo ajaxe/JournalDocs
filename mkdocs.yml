@@ -38,6 +38,9 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+plugins:
+  - git-revision-date
+
 extra_javascript:
   - js/extra.js
   - js/moment.min.js
@@ -61,4 +64,7 @@ nav:
     - "Private OpenFaas": 'projects/host-open-faas.md'
     - "Host Web App Behind Traefik": "projects/web-app-behind-traefik.md"
     - "Aspnet Core With Vuejs": "projects/vue-app-with-dotnet.md"
+  - Tidbits:
+    - "Docker & AWS Cli": "tidbits/aws-cli.md"
   - Privacy: privacy.md
+
