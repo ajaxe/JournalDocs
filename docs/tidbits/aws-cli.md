@@ -6,7 +6,7 @@ It suggested to add alias to `docker run` command to the alpine container to be 
 
 ```powershell
 PS c:\> function Execute-AwsCli {
->> docker run --rm -t -e "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" -e "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" -e "AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION" -v "$(pwd):/project" mesosphere/aws-cli
+>> docker run --rm -it -e "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" -e "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" -e "AWS_DEFAULT_REGION=$AWS_DEFAULT_REGION" -v "$(pwd):/project" mesosphere/aws-cli @args
 >> }
 PS C:\> Set-Alias aws Execute-AwsCli
 PS C:\> aws help
