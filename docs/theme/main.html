@@ -1,9 +1,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div class="last-modified">
-      Compiled at: <span id="compile-dt"></span><br/>
-    </div>
     {% if page.meta.revision_date %}
       <small><br><i>Last Updated At {{ page.meta.revision_date }}</i></small>
     {% endif %}
