@@ -6,10 +6,3 @@
     {% endif %}
     {{ super() }}
 {% endblock %}
-
-{% block scripts %}
-    {{ super() }}
-    <script>
-      custom.convertDateFromUtc('{{build_date_utc}}');
-    </script>
-{% endblock %}
