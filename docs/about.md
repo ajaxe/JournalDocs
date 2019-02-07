@@ -22,5 +22,5 @@ This site is essentially a documentation of my development explorations.
 ## Games I Play
 
 * Destiny 2
-* The Division, looking forward to second installment.
+* The Division, looking forward to second installment. Woo hoo!! Private Beta starts on Feb 07 2019.
 * Diablo 3
