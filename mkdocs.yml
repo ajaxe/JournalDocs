@@ -40,6 +40,7 @@ markdown_extensions:
 
 plugins:
   - git-revision-date
+  - search
 
 extra_javascript:
   - js/extra.js
