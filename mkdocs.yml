@@ -1,14 +1,14 @@
 site_name: Apogee-Dev
 repo_name: ajaxe/JournalDocs
 repo_url: https://github.com/ajaxe/JournalDocs
-google_analytics: ['UA-36723568-3', 'mkdocs.org']
+google_analytics: ["UA-36723568-3", "mkdocs.org"]
 
 theme:
   name: material
-  favicon: 'img/favicon.ico'
+  favicon: "img/favicon.ico"
   custom_dir: docs/theme/
   logo:
-    icon: 'my-logo'
+    icon: "my-logo"
   include_sidebar: true
   language: en
   feature:
@@ -61,11 +61,11 @@ nav:
   - Home: index.md
   - About: about.md
   - Projects:
-    - "Self-Hosting": 'projects/self-hosting.md'
-    - "Private OpenFaas": 'projects/host-open-faas.md'
-    - "Host Web App Behind Traefik": "projects/web-app-behind-traefik.md"
-    - "Aspnet Core With Vuejs": "projects/vue-app-with-dotnet.md"
+      - "Keytag": "projects/keytag-app.md"
+      - "Self-Hosting": "projects/self-hosting.md"
+      - "Private OpenFaas": "projects/host-open-faas.md"
+      - "Host Web App Behind Traefik": "projects/web-app-behind-traefik.md"
+      - "Aspnet Core With Vuejs": "projects/vue-app-with-dotnet.md"
   - Tidbits:
-    - "AWS CLI In Docker": "tidbits/aws-cli.md"
+      - "Docker & AWS Cli": "tidbits/aws-cli.md"
   - Privacy: privacy.md
-
