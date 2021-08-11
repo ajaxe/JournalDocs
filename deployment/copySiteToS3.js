@@ -24,17 +24,28 @@ const getFiles = async function (path) {
   return files;
 };
 
-const copyFiles = async function (rootPath) {
-  const files = await getFiles(rootPath);
-  const copyPromises = [];
-  for (const file of files) {
-    const s3Key = getS3KeyFromFilePath(rootPath, file.path);
+/**
+ *
+ * @param {string} rootPath
+ * @returns {Array<Promise<void>>}
+ */
+const copyFiles = function (rootPath) {
+  return getFiles(rootPath).then((files) => {
+    /**
+     * @type {Array<Promise<void>>}
+     */
+    const copyPromises = [];
+    for (const file of files) {
+      const s3Key = getS3KeyFromFilePath(rootPath, file.path);
 
-    console.log(`filepath: ${file.path}, s3Key: ${s3Key}`);
+      console.log(`filepath: ${file.path}, s3Key: ${s3Key}`);
 
-    const p = uploadFileIfChanged(file.path, s3Key);
-    copyPromises.push(p);
-  }
+      const p = uploadFileIfChanged(file.path, s3Key);
+      copyPromises.push(p);
+    }
+
+    return copyPromises;
+  });
 };
 
 /**
@@ -114,7 +125,8 @@ const generateMD5Hash = function (fileData) {
 
 try {
   (async function () {
-    await copyFiles(path.join(__dirname, "../site/"));
+    const all = await copyFiles(path.join(__dirname, "../site/"));
+    await Promise.all(all);
   })();
 } catch (err) {
   console.error(err);
