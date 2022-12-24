@@ -61,6 +61,8 @@ nav:
   - Home: index.md
   - About: about.md
   - Projects:
+      - "Webhook Tester": "projects/webhook-tester.md"
+      - "Illuminate - Chrome extension": "projects/illuminate-chrome-extension.md"
       - "Keytag": "projects/keytag-app.md"
       - "Self-Hosting": "projects/self-hosting.md"
       - "Private OpenFaas": "projects/host-open-faas.md"
